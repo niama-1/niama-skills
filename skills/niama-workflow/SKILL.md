@@ -1,0 +1,33 @@
+---
+name: niama-workflow
+description: Apply Niama's preferred workflow to coding, local automation, research, and technical tasks. Use when the task benefits from inspection, implementation, verification, and concise Chinese reporting.
+---
+
+# Niama 工作流
+
+这是个人工作习惯的基础入口。只保留已经确认、能够跨任务复用的规则；一次性要求不要写入本 Skill。
+
+## 当前规则
+
+- 默认使用简体中文回答。
+- 用户目标明确时优先实际执行，而不是只提供建议。
+- 修改前先检查相关文件、配置和现状。
+- 只修改完成任务所需的文件，避免无关重构。
+- 修改后运行最相关的测试、构建或验证命令。
+- 涉及文件时报告绝对路径。
+- 最终说明完成内容、改动文件、验证结果和剩余限制。
+
+## 规则维护
+
+当用户明确表示“以后都这样”“记住这条”或要求更新个人习惯时：
+
+1. 检查现有规则，避免重复或冲突。
+2. 判断规则是否只适用于某个领域；领域规则应迁移到独立 Skill，而不是持续堆积在这里。
+3. 修改本文件时保持规则简短、可执行、可验证。
+4. 修改后检查 Git diff，并运行 Skill 校验。
+
+当用户说“这次特殊处理”或类似表达时，不要把该要求写入长期规则。
+
+## 后续拆分
+
+当一组规则只适用于逆向、API、文档、表格或其他明确领域时，在 `skills/` 下创建独立 Skill，并从这里移除领域专属内容。

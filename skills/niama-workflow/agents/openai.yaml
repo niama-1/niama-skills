@@ -1,0 +1,4 @@
+interface:
+  display_name: "Niama Workflow"
+  short_description: "Apply Niama's personal task workflow"
+  default_prompt: "Use $niama-workflow to complete this task with Niama's preferred workflow."
