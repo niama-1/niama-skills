@@ -4,12 +4,12 @@
 
 ## 目录
 
-- `skills/`：可被 Skill 管理器发现的 Skill
-- `skills/niama-workflow/`：个人通用工作习惯 Skill
+- 根目录：本仓库本身就是一个可被 Skill 管理器发现的 Skill
+- `SKILL.md`：个人通用工作习惯 Skill
 
 ## 本地配置
 
-将本仓库或 `skills/` 目录配置为 Skill 管理器的 Git 源。
+将本仓库根目录配置为 Skill 管理器的 Git 源。
 具体安装目标由 Skill 管理器负责，不在仓库中硬编码。
 
 ## 日常更新

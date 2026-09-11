@@ -1,5 +1,5 @@
 ---
-name: niama-workflow
+name: niama-skills
 description: Apply Niama's preferred workflow to coding, local automation, research, and technical tasks. Use when the task benefits from inspection, implementation, verification, and concise Chinese reporting.
 ---
 
@@ -30,4 +30,4 @@ description: Apply Niama's preferred workflow to coding, local automation, resea
 
 ## 后续拆分
 
-当一组规则只适用于逆向、API、文档、表格或其他明确领域时，在 `skills/` 下创建独立 Skill，并从这里移除领域专属内容。
+当一组规则只适用于逆向、API、文档、表格或其他明确领域时，在仓库内创建独立 Skill 子目录，并从这里移除领域专属内容。
