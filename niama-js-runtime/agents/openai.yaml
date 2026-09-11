@@ -1,0 +1,6 @@
+interface:
+  display_name: "Niama JS Runtime"
+  short_description: "Node 执行层 JS 风控补环境证据驱动完整链路复现"
+  default_prompt: "使用 $niama-js-runtime 通过 Node 补环境复现 JS 风控链路。"
+policy:
+  allow_implicit_invocation: false

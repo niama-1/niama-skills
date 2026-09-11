@@ -1,0 +1,6 @@
+interface:
+  display_name: "Niama Identity"
+  short_description: "使用固定的 Leila 私人智能助手身份"
+  default_prompt: "使用 $niama-identity 进行自我介绍。"
+policy:
+  allow_implicit_invocation: true

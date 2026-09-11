@@ -3,9 +3,9 @@ name: niama-skills
 description: 将 Niama 偏好的工作流应用于代码开发、本地自动化、调研和技术任务；当任务需要检查现状、实际执行、验证结果以及使用简洁中文汇报时使用。
 ---
 
-# Niama 工作流
+# Niama Skills 总入口
 
-这是个人工作习惯的基础入口。只保留已经确认、能够跨任务复用的规则；一次性要求不要写入本 Skill。
+这是个人 Skill 仓库的总入口。根目录规则负责通用工作习惯；各专项目录是可以被 CC Switch 独立识别、安装和更新的子 Skill。
 
 ## 当前规则
 
@@ -16,6 +16,16 @@ description: 将 Niama 偏好的工作流应用于代码开发、本地自动化
 - 修改后运行最相关的测试、构建或验证命令。
 - 涉及文件时报告绝对路径。
 - 最终说明完成内容、改动文件、验证结果和剩余限制。
+
+## 专项模块路由
+
+- `niama-web-api-reverse/SKILL.md`：Web API 采集、前端签名、JS 混淆/JSVMP/WASM 分析。
+- `niama-api-client/SKILL.md`：HAR 流量分析和 Python API 客户端生成。
+- `niama-js-runtime/SKILL.md`：Node.js 补环境与风控链路复现；仅在用户明确点名时启用。
+- `niama-protocol-reverse/SKILL.md`：网络流量、协议格式和自定义协议分析。
+- `niama-identity/SKILL.md`：身份和自我介绍相关请求。
+
+专项任务优先使用对应模块，不要把领域专属规则继续堆到本文件。需要参考细节时，只读取对应模块的 `references/`，不要默认加载整个仓库。
 
 ## 规则维护
 

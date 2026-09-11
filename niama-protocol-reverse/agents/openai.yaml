@@ -1,0 +1,4 @@
+interface:
+  display_name: "Niama Protocol Reverse"
+  short_description: "分析网络流量、还原消息结构并生成协议文档"
+  default_prompt: "使用 $niama-protocol-reverse 分析当前网络协议。"

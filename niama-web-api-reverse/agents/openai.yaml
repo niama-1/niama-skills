@@ -1,0 +1,4 @@
+interface:
+  display_name: "Niama Web API Reverse"
+  short_description: "Web API 采集、前端签名及 JS 保护分析"
+  default_prompt: "使用 $niama-web-api-reverse 分析并复现当前 Web API。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Niama API Client"
+  short_description: "分析 HAR 流量并生成可验证的 Python API 客户端"
+  default_prompt: "使用 $niama-api-client 分析 HAR 并生成可验证的 API 客户端。"

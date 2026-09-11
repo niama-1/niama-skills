@@ -1,4 +1,4 @@
 interface:
   display_name: "Niama Skills"
-  short_description: "Apply Niama's personal task workflow"
-  default_prompt: "Use $niama-skills to complete this task with Niama's preferred workflow."
+  short_description: "应用 Niama 的个人工作流并按任务路由专项技能"
+  default_prompt: "使用 $niama-skills 按照 Niama 的个人工作流完成当前任务。"
