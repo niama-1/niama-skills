@@ -1,6 +1,6 @@
 ---
 name: niama-skills
-description: Apply Niama's preferred workflow to coding, local automation, research, and technical tasks. Use when the task benefits from inspection, implementation, verification, and concise Chinese reporting.
+description: 将 Niama 偏好的工作流应用于代码开发、本地自动化、调研和技术任务；当任务需要检查现状、实际执行、验证结果以及使用简洁中文汇报时使用。
 ---
 
 # Niama 工作流
