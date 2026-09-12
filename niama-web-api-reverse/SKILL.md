@@ -144,6 +144,7 @@ verify_signer_offline(
 | GitHub真实VM/CFF/加解密/风控/指纹实战 | [real-source-cases.md](references/real-source-cases.md) |
 | JSVMP 路径 A / B | [path-a-four-tools.md](references/path-a-four-tools.md) / [path-b-env-emulation.md](references/path-b-env-emulation.md) |
 | 环境补丁与 UA 一致性 | [jsdom-env-patches.md](references/jsdom-env-patches.md) |
+| 静态 AST 解混淆、对象 helper 与 CFF 状态机恢复 | [static-deobfuscation-pipeline.md](references/static-deobfuscation-pipeline.md) |
 | 反混淆/改写的语义验证 | [transform-validation.md](references/transform-validation.md) |
 | 源码级插桩 | [jsvmp-source-instrumentation.md](references/jsvmp-source-instrumentation.md) |
 | 具体场景与常见误判 | [analysis-scenarios.md](references/analysis-scenarios.md) / [common-pitfalls.md](references/common-pitfalls.md) |
@@ -155,4 +156,5 @@ verify_signer_offline(
 - v3.8.0（2026-09-08）：任务级首检与失效重查；响应文件/请求差异证据；按多轮独立 Agent 反馈完善诊断、哈希单位和分页恢复。
 
 - v3.7.0（2026-09-07）：对齐 MCP v1.6.0；通用分页采集、断点恢复与基线记录；修复模板和工具契约，核心指令按需加载。
+- 工作流补充：吸收本地 AST 解混淆器实战中的对象 helper、字符串传播、CFF 状态机恢复和固定点调度经验；详见 `references/static-deobfuscation-pipeline.md`。
 - 历史版本与详细差异见 Git tags / Releases。保留现有 Skill 名称和模板目录，避免已有安装与引用失效。
