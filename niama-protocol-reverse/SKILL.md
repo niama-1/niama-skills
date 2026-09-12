@@ -3,6 +3,10 @@ name: niama-protocol-reverse
 description: 分析网络流量、拆解消息结构并记录自定义协议；用于 PCAP 分析、私有协议还原、通信故障定位和协议文档生成。
 ---
 
+## 个人 Skill 源仓库规则
+
+本模块的源文件位于 `D:\code\prospect\niama-skills\niama-protocol-reverse`。修改或新增内容时，只编辑该 Git 仓库；`C:\Users\niama\.codex\skills\niama-skills` 是 CC Switch 安装副本，不要直接修改。
+
 # Protocol Reverse Engineering
 
 Comprehensive techniques for capturing, analyzing, and documenting network protocols for security research, interoperability, and debugging.

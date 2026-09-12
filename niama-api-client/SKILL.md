@@ -3,6 +3,10 @@ name: niama-api-client
 description: 通过浏览器流量或 HAR 文件分析 Web API，并生成可验证的 Python API 客户端；用于接口梳理、HAR 分析、网站操作自动化和未公开 API 对接。
 ---
 
+## 个人 Skill 源仓库规则
+
+本模块的源文件位于 `D:\code\prospect\niama-skills\niama-api-client`。修改或新增内容时，只编辑该 Git 仓库；`C:\Users\niama\.codex\skills\niama-skills` 是 CC Switch 安装副本，不要直接修改。
+
 # Reverse Engineering API Skill
 
 This skill enables you to reverse engineer web APIs by:

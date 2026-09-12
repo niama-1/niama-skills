@@ -3,6 +3,10 @@ name: niama-js-runtime
 description: 仅在用户当前会话中明确点名 niama-js-runtime 或明确指定 Node 补环境 Skill 时启用，不得因任务内容相似而主动加载；用于 Node 执行层的 JS 风控链路复现与补环境，并由 test.py 验证。
 ---
 
+## 个人 Skill 源仓库规则
+
+本模块的源文件位于 `D:\code\prospect\niama-skills\niama-js-runtime`。修改或新增内容时，只编辑该 Git 仓库；`C:\Users\niama\.codex\skills\niama-skills` 是 CC Switch 安装副本，不要直接修改。
+
 # Skill: JS 风控链路复现（Node 补环境）
 
 ## 规则等级

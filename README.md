@@ -18,13 +18,24 @@ Niama 的个人 Skill 源仓库。仓库根目录和每个专项子目录都包�
 
 ## 日常更新
 
+本仓库是唯一编辑源。不要直接修改 `C:\Users\niama\.codex\skills\niama-skills`，该目录只是 CC Switch 安装后的运行副本。
+
+标准流程：
+
 ```powershell
+cd D:\code\prospect\niama-skills
+
+# 修改本仓库后执行
+python C:\Users\niama\.codex\skills\.system\skill-creator\scripts\quick_validate.py .
 git add .
 git commit -m "update personal skills"
+git push
 ```
 
-如果配置了远程仓库，再执行：
+然后在 CC Switch 界面点击刷新/更新，最后用新会话验证。
+
+远程仓库：
 
 ```powershell
-git push
+git remote -v
 ```

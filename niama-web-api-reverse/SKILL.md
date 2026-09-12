@@ -10,6 +10,10 @@ metadata:
   mcp-compatible: "1.8.0（旧工作流兼容 1.6.x / 1.7.x；新参数需对应工具 schema）"
 ---
 
+## 个人 Skill 源仓库规则
+
+本模块的源文件位于 `D:\code\prospect\niama-skills\niama-web-api-reverse`。修改或新增内容时，只编辑该 Git 仓库；`C:\Users\niama\.codex\skills\niama-skills` 是 CC Switch 安装副本，不要直接修改。
+
 # 通用采集与签名分析
 
 本 Skill 提供工作方法、案例和协议模板；`camoufox-reverse-mcp` 提供浏览器分析工具。保持通用：域名、接口路径、字段、签名算法、Cookie 和分页规则来自当前需求，不能写进 MCP 的平台通用实现。
