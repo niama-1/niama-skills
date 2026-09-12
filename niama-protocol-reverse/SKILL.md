@@ -5,7 +5,7 @@ description: 分析网络流量、拆解消息结构并记录自定义协议；�
 
 ## 个人 Skill 源仓库规则
 
-本模块的源文件位于 `D:\code\prospect\niama-skills\niama-protocol-reverse`。修改或新增内容时，只编辑该 Git 仓库；`C:\Users\niama\.codex\skills\niama-skills` 是 CC Switch 安装副本，不要直接修改。
+本模块的源文件位于本模块 `SKILL.md` 所在目录。修改或新增内容时，只编辑包含该模块的 Git 工作区；客户端安装目录是运行副本，不要直接修改。
 
 # Protocol Reverse Engineering
 

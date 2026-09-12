@@ -5,7 +5,7 @@ description: 通过浏览器流量或 HAR 文件分析 Web API，并生成可验
 
 ## 个人 Skill 源仓库规则
 
-本模块的源文件位于 `D:\code\prospect\niama-skills\niama-api-client`。修改或新增内容时，只编辑该 Git 仓库；`C:\Users\niama\.codex\skills\niama-skills` 是 CC Switch 安装副本，不要直接修改。
+本模块的源文件位于本模块 `SKILL.md` 所在目录。修改或新增内容时，只编辑包含该模块的 Git 工作区；客户端安装目录是运行副本，不要直接修改。
 
 # Reverse Engineering API Skill
 

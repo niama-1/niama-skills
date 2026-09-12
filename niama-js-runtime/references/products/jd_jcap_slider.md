@@ -297,8 +297,8 @@ max_offset = 219
 VISION_API_KEY / OPENAI_API_KEY
 VISION_API_BASE / OPENAI_BASE_URL
 VISION_MODEL / OPENAI_VISION_MODEL
-C:\Users\mile\.codex\config.toml
-C:\Users\mile\.codex\auth.json
+当前客户端配置文件（路径由客户端环境决定）
+当前客户端认证文件（路径由客户端环境决定）
 ```
 
 不要在日志中回显 key。
